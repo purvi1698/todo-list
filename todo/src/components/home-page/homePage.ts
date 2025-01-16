@@ -1,4 +1,3 @@
-import { Description } from "./../../../node_modules/jackspeak/dist/commonjs/index.d";
 export function home_page() {
   const appContainer = document.getElementById("app");
   if (appContainer) {
@@ -57,7 +56,6 @@ export class Tasks {
     editBtn.addEventListener("click", () =>
       this.update_task(task, parentContainer)
     );
-
     parentContainer.appendChild(cardTitle);
     parentContainer.appendChild(cardDescription);
     parentContainer.appendChild(toDoBtn);
